@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 76.46 sec <<< FAILURE! - in TestSuite
+setUp(Bar.Testgrid)  Time elapsed: 4.447 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: crashed.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ddd4ba0c3693', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.72-microsoft-standard-WSL2', java.version: '1.8.0_282'
+Driver info: driver.version: unknown
+remote stacktrace: #0 0x55a29b250e89 <unknown>
+
+Command duration or timeout: 2.17 seconds
+Caused by: org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: crashed.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'ddd4ba0c3693', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.72-microsoft-standard-WSL2', java.version: '1.8.0_282'
+Driver info: driver.version: unknown
+remote stacktrace: #0 0x55a29b250e89 <unknown>
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8PA2AS0', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="6" parallel="tests" name="Failed suite [regression]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="6" parallel="tests" name="onChrome(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Bar.Testgrid">
+        <methods>
+          <include name="setUp"/>
+          <include name="stopDriver"/>
+          <include name="CheckfreeText"/>
+        </methods>
+      </class> <!-- Bar.Testgrid -->
+    </classes>
+  </test> <!-- onChrome(failed) -->
+</suite> <!-- Failed suite [regression] -->
