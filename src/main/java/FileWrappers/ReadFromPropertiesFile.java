@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ReadFromPropertiesFile {
-    static String fileNamePath = "E:\\testing\\TA Ahmed reda\\Levelset\\DocomentElements.properties";
+    static String fileNamePath = "DocomentElements.properties";
     public static Properties  properties = new Properties();
 
     static {
