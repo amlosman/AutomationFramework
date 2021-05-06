@@ -29,7 +29,7 @@ public class TestExcel {
     @DataProvider(name = "ElementLocator")
     public Object[][] ReadFromexcel()
     {
-       ExcelFileManager excel = new ExcelFileManager(new File("E:\\testing\\TA Ahmed reda\\TestAutomation\\Levelset\\src\\test\\resources\\WraperFiles\\TestData.xlsx"));
+       ExcelFileManager excel = new ExcelFileManager(new File("src\\test\\resources\\WraperFiles\\TestData.xlsx"));
         excel.switchToSheet("DocmentPageLocators");
 
         /*Object[] [] Locator = {{excel.getCellData("Locators", 2)},
