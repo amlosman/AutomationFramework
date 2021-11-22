@@ -28,14 +28,7 @@ public class BaseTest {
         WebBrowsers.staticmaximizeWindow(driver);
     }
 
-@Test
-    public void CheckfreeText()
-    {
-      Actual= new HomePage(driver).navigateToHomePage().selectCreatAdecoment().clickOnButtoninDocumentItem(Elemet).
-             getMessageIsFree(Elemet);
-     Assert.assertEquals(Actual,"Free");
 
-    }
     @AfterMethod
     public void takeScreenShoot()
     {
