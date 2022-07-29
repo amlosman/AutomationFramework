@@ -8,20 +8,20 @@
     <test  name="OnChrome">
          <parameter name="browser" value="Chrome"/>
     <classes>
-         <class name="Bar.BaseTest"/>
+         <class name="Test.BaseTest"/>
 
     </classes>
 </test>
 <!--    <test  name="OnFirefox">
         <parameter name="browser" value="Firefox"/>
         <classes>
-            <class name="Bar.BaseTest"/>
+            <class name="Test.BaseTest"/>
         </classes>
     </test>
     <test  name="OnEdge">
         <parameter name="browser" value="Edge"/>
         <classes>
-            <class name="Bar.BaseTest"/>
+            <class name="Test.BaseTest"/>
         </classes>
     </test>-->
 </suite>

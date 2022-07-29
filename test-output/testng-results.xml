@@ -6,8 +6,8 @@
     <groups>
     </groups>
     <test started-at="2021-05-05T06:34:25 EET" name="Default test" finished-at="2021-05-05T06:34:26 EET" duration-ms="536">
-      <class name="Bar.BaseTest">
-        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:Bar.BaseTest@6a638c79]" started-at="2021-05-05T06:34:25 EET" name="beforeClass" finished-at="1970-01-01T02:00:00 EET" duration-ms="-1620189265562" status="FAIL">
+      <class name="Test.BaseTest">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:Test.BaseTest@6a638c79]" started-at="2021-05-05T06:34:25 EET" name="beforeClass" finished-at="1970-01-01T02:00:00 EET" duration-ms="-1620189265562" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -47,7 +47,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="CheckfreeText()[pri:0, instance:Bar.BaseTest@6a638c79]" started-at="2021-05-05T06:34:25 EET" name="CheckfreeText" finished-at="2021-05-05T06:34:25 EET" duration-ms="0" status="SKIP">
+        <test-method signature="CheckfreeText()[pri:0, instance:Test.BaseTest@6a638c79]" started-at="2021-05-05T06:34:25 EET" name="CheckfreeText" finished-at="2021-05-05T06:34:25 EET" duration-ms="0" status="SKIP">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -87,15 +87,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckfreeText -->
-        <test-method is-config="true" signature="takeScreenShoot()[pri:0, instance:Bar.BaseTest@6a638c79]" started-at="2021-05-05T06:34:26 EET" name="takeScreenShoot" finished-at="1970-01-01T02:00:00 EET" duration-ms="-1620189266015" status="SKIP">
+        <test-method is-config="true" signature="takeScreenShoot()[pri:0, instance:Test.BaseTest@6a638c79]" started-at="2021-05-05T06:34:26 EET" name="takeScreenShoot" finished-at="1970-01-01T02:00:00 EET" duration-ms="-1620189266015" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShoot -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Bar.BaseTest@6a638c79]" started-at="2021-05-05T06:34:26 EET" name="tearDown" finished-at="1970-01-01T02:00:00 EET" duration-ms="-1620189266058" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.BaseTest@6a638c79]" started-at="2021-05-05T06:34:26 EET" name="tearDown" finished-at="1970-01-01T02:00:00 EET" duration-ms="-1620189266058" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Bar.BaseTest -->
+      </class> <!-- Test.BaseTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

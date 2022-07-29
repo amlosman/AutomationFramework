@@ -6,14 +6,14 @@
     <test name="onChrome" preserve-order="false">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="Bar.Testgrid"/>
+            <class name="Test.Testgrid"/>
         </classes>
     </test>
 
     <test name="onFirefox" preserve-order="false">
         <parameter name="browser" value="firefox"/>
         <classes>
-            <class name="Bar.Testgrid"/>
+            <class name="Test.Testgrid"/>
         </classes>
     </test>
 
